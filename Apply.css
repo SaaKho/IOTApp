@@ -1,0 +1,112 @@
+.imp{
+    justify-content: space-between !important;
+  }
+  .imp2{
+    flex-wrap: wrap !important;
+  }
+  .imp3{
+    justify-content: end !important;
+  }
+  @media (max-width: 858px){
+  .container {
+  margin-top:0px !important;
+  }
+  }
+  .imp6{
+    padding-left: 90px !important;
+  }
+  .impHeader{
+    letter-spacing:0px !important;
+  }
+  .adminPages .container{
+    padding-left: 90px !important;
+    justify-content: flex-start;
+  }
+  @media (min-width: 768px){
+  .md\:p-4 {
+      padding: 0rem !important;
+  }
+  }
+  @media (min-width: 768px){
+  .md\:p-8 {
+      padding: 1rem !important;
+  }
+  }
+  
+  
+  .register-form {
+      max-width: 400px;
+      margin: auto;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .form-group h2{
+      margin-bottom: 20px;
+    }
+    .inputfile{
+      border:none !important;
+    }
+    .form-group2{
+      border: none !important;
+    }
+    .register-form{
+      border: none;
+      border-radius: 22px;background-color: white !important;
+      padding: 30px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .imp4{
+      display: block !important;
+      padding-left: 90px !important;
+    }
+    .imp4 h1{
+      text-align: left !important;
+    }
+    .imp4 h2{
+      text-align: left !important;
+    }
+    .imp4 h3{
+      text-align: left !important;
+    }
+    input {
+      width: 300px;
+      padding: 10px;
+      font-size: 12px;
+      color: 1px solid rgb(209, 206, 206);
+      background-color: transparent;
+      box-sizing: border-box;
+      border-radius: 10px;
+    
+      border: 1px solid rgb(132, 132, 132);
+    }
+    
+    
+    button {
+      background-color: #008CBA;
+      color: white;
+      width: 300px;
+      border-radius: 10px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #008CBA;
+    }
+    
+    .login-apply-page {
+      text-align: center;
+    }
+    
+    .login-apply-container {
+      margin-top: 20px;
+    }

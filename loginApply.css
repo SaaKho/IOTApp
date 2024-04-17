@@ -1,0 +1,63 @@
+/* Base styles */
+.loginApply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100VW;
+    background-color: #f3f4f6; /* Background color */
+  }
+  .lastbut
+  {
+    margin-left: 20px !important;
+  }
+  
+  .loginApplyL {
+    position: relative;
+    flex: 1;
+  }
+  
+  .backgroundImageContainer {
+    
+    width: 100%;
+    height: 98vh !important;
+  }
+  
+  .backgroundImage {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  }
+  
+  .loginApplyR {
+    flex: 1;
+    padding: 40px;
+    background-color: transparent; /* Transparent background */
+    animation: fadeIn 1s ease;
+  }
+  
+  /* Animation keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .loginApply {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: stretch; /* Stretch elements vertically */
+    }
+    
+    .loginApplyL {
+      display: none; /* Hide left side on mobile */
+    }
+    .loginApplyR {
+      flex: 1; /* Take up full width and height */
+      padding: 20px; /* Adjust padding for better mobile view */
+    }
+  }
